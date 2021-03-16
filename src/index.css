@@ -1,0 +1,5 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    background-color: rgb(126, 209, 235);
+}
+

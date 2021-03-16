@@ -1,8 +1,13 @@
+import Slider from './components/Slider';
 
 function App() {
   return (
-    <div className="App">
-      <h1>Photo Editor</h1>
+    <div className="container">
+      <div className="main-img" />
+      <div className="sidebar">
+
+      </div>
+      <Slider />
     </div>
   );
 }
