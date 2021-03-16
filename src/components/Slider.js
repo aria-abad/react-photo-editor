@@ -2,8 +2,8 @@ import React from 'react'
 
 export default function Slider() {
     return (
-        <div>
-            slider
+        <div className="slider-container">
+            <input type="range" className="slider"/>
         </div>
     )
 }
