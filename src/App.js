@@ -1,3 +1,4 @@
+import SidebarItem from './components/SidebarItem';
 import Slider from './components/Slider';
 
 function App() {
@@ -5,7 +6,9 @@ function App() {
     <div className="container">
       <div className="main-image" />
       <div className="sidebar">
-        Sidebar
+        <SidebarItem />
+        <SidebarItem />
+        <SidebarItem />
       </div>
       <Slider />
     </div>
