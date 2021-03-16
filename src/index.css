@@ -37,6 +37,39 @@ body {
     align-items: stretch;
 }
 
+.sidebar-item {
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background-color: hsl(265, 100%, 86%);
+    padding: 1rem;
+    /* border-bottom: 1px solid black; */
+    transition: background-color 200ms;
+    position: relative;
+}
+
+.sidebar-item:hover, .sidebar-item:focus {
+    background-color: hsl(265, 100%, 76%);
+}
+
+.sidebar-item.active {
+    background-color: hsl(265, 100%, 70%);
+}
+
+.sidebar-item::after {
+    content: '';
+    position: absolute;
+    width: 80%;
+    left: 10%;
+    bottom: 0;
+    height: 1px;
+    background-color: hsl(265, 100%, 46%);
+}
+
+.sidebar-item:last-child::after {
+    display: none;
+}
+
 .slider-container {
     grid-area: slider;
     margin-top: 2rem;
