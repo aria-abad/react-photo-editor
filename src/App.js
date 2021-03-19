@@ -90,9 +90,13 @@ function App() {
     })
   }
 
+  function getImageStyle() {
+
+  }
+
   return (
     <div className="container">
-      <div className="main-image" />
+      <div className="main-image" style={getImageStyle()} />
       <div className="sidebar">
         {options.map((option, index) => {
           return (
