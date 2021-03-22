@@ -43,7 +43,6 @@ body {
     outline: none;
     background-color: hsl(265, 100%, 86%);
     padding: 1rem;
-    /* border-bottom: 1px solid black; */
     transition: background-color 200ms;
     position: relative;
 }
@@ -72,8 +71,8 @@ body {
 
 .slider-container {
     grid-area: slider;
-    margin-top: 2rem;
-    padding: 2rem;
+    margin-top: 1rem;
+    padding: 1rem;
 }
 
 .slider {
